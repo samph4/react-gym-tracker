@@ -19,6 +19,10 @@
     width: 100%;
 }
 
+.menu {
+    padding-top: 2rem;
+}
+
 .topbar {
     display: flex;
     position:fixed;
