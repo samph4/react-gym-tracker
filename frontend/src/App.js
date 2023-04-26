@@ -2,7 +2,7 @@ import './App.css';
 import Sidenav from './components/global/Sidenav';
 import Topbar from './components/global/Topbar';
 import Dashboard from './scenes/Dashboard';
-import Memberships from './scenes/Memberships';
+import API from './scenes/Api';
 import Favourites from './scenes/Favourites';
 import { Routes, Route } from 'react-router-dom';
 
@@ -15,7 +15,7 @@ function App() {
         <div className='content-page'>
           <Routes>
             <Route path='/' element = {<Dashboard/>} />
-            <Route path='/Memberships' element = {<Memberships/>} />
+            <Route path='/API' element = {<API/>} />
             <Route path='/Favourites' element = {<Favourites/>} />
           </Routes>
         </div>

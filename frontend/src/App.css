@@ -82,3 +82,32 @@
     margin-left: 1rem;
     color: #b3b3b3;
 }
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 30rem;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 5px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+.profile-pic {
+    border-radius: 50%;
+    width: 30px;
+}
