@@ -45,7 +45,7 @@
 
 .logo-text {
     padding-left: 10px;
-    color: #7a20da;
+    color: #2381d8;
     font-weight:400;
 }
 
@@ -61,11 +61,11 @@
   }
 
 .nav-link:hover {
-    color: #7a20da;
+    color: #2381d8;
 }
 
 .nav-link.active {
-    color: #7a20da;
+    color: #2381d8;
     font-weight: bold;
   }
 
