@@ -4,6 +4,7 @@ import Topbar from './components/global/Topbar';
 import Dashboard from './scenes/Dashboard';
 import API from './scenes/Api';
 import Favourites from './scenes/Favourites';
+import Profile from './scenes/Profile';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path='/' element = {<Dashboard/>} />
             <Route path='/API' element = {<API/>} />
+            <Route path='/Profile' element = {<Profile/>} />
             <Route path='/Favourites' element = {<Favourites/>} />
           </Routes>
         </div>

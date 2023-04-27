@@ -20,6 +20,11 @@ function Sidenav() {
                     Dashboard
                 </MenuItem>
             </NavLink>
+            <NavLink to='/Profile' className='nav-link'>
+                <MenuItem style={spacing_style} icon={<AssignmentIndOutlinedIcon />}>
+                    Profile 
+                </MenuItem>
+            </NavLink>
             <NavLink to='/API' className='nav-link'>
                 <MenuItem style={spacing_style} icon={<AssignmentIndOutlinedIcon />}>
                     API 
