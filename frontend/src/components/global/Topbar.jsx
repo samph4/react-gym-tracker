@@ -16,7 +16,7 @@ function Topbar() {
             {/* BRANDING */}
             <Box className='topbar-branding'>
                 <img src="megaman_logo.jpeg" alt="" height='40px' onClick={() => collapseSidebar()}/>
-                {/* <p className="logo-text">megaman</p> */}
+                <p className="logo-text">KRONKS</p>
             </Box>
 
             {/* BUTTONS */}

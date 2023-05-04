@@ -20,12 +20,26 @@
     flex-direction: row;
     justify-content:flex-start;
     width: 100vh;
-    padding: 1rem;
+    padding-bottom: 1rem;
     align-items: center;
     gap: 2rem;
     border-bottom: 1px solid #ccc;
     /* background-color: white; */
     /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12); */
+}
+
+.summoner-card{
+    display: flex;
+    /* background-color: white; */
+    padding-top: 2rem;
+    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12); */
+}
+
+.summoner-card-key-info{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 2rem;
 }
 
 /* .separator {
@@ -62,7 +76,7 @@
     display: flex;
     align-items: center;
     padding-left: 1rem;
-    font-family: 'Alkatra', sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
 }
 
